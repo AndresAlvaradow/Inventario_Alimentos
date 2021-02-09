@@ -1,13 +1,18 @@
 package inventarioalimentos.persistencia;
 
+import java.util.List;
+
 
 
 
 public interface IOperacionDBAlimentos {
-   
-    void insertarAlimentos();
 
-   
-    void getAllAlimentos();
+    public int insertarAlimentos(Alimento AlimentoIsercion);
+
+  
+    public List<Alimento> getAllAlimentos();
+
+  
+    public boolean validarExistencia(String nombre);
 
 }

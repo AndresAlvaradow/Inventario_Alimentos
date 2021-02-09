@@ -5,8 +5,9 @@ import inventarioalimentos.domain.Notificacion;
 
 
 public class NotificarAlimentoCaducar implements Notificacion {
-   
-    public void enviarNotificacion() {
+
+    public String enviarNotificacion(String Alimento, String fechaCaducidad) {
+        return null;
     }
 
 }

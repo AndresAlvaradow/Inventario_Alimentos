@@ -1,15 +1,18 @@
 package inventarioalimentos.domain.usecase;
 
 
-import inventarioalimentos.domain.Registrar;
+import inventarioalimentos.domain.RegistroEntregaX;
+import inventarioalimentos.domain.entities.Entrega;
+import inventarioalimentos.persistencia.RepositorioEntrega;
 
-
-public class RegistrarEntregaAlimentos implements Registrar {
-  
-    public void registrar() {
+public class RegistrarEntregaAlimentos implements RegistroEntregaX {
+ 
+    public void registrarEntrega(Entrega Entrega, RepositorioEntrega RepoEntrega) {
     }
 
-    public void existeBeneficiario() {
+ 
+    public boolean ValidarExistenciaE(Entrega Entrega, String cedula, String nombreA) {
+        return false;
     }
 
 }

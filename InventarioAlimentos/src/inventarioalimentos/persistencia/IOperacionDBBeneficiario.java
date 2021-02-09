@@ -2,7 +2,6 @@ package inventarioalimentos.persistencia;
 
 
 
-
 public interface IOperacionDBBeneficiario {
 
     void insertar();
@@ -10,7 +9,7 @@ public interface IOperacionDBBeneficiario {
 
     void getAll();
 
- 
-    void existeBeneficiario();
+  
+    void validarExistencia();
 
 }
