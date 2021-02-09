@@ -2,14 +2,14 @@ package inventarioalimentos.domain;
 
 
 import inventarioalimentos.domain.entities.Beneficiario;
-import inventarioalimentos.persistencia.RepositorioBeneficiario;
+
 
 
 public interface RegistroBeneficiario {
     
-    void registrarBeneficiar(Beneficiario Beneficiario, RepositorioBeneficiario RepositorioB);
+    public int registrarBeneficiar(Beneficiario Beneficiario);
 
  
-    boolean validarExistenciaB(Beneficiario Beneficiario, String cedula);
+    boolean validarExistenciaB(String cedula);
 
 }

@@ -3,7 +3,7 @@ package inventarioalimentos.domain.usecase;
 import inventarioalimentos.domain.RegistroAlimentos;
 import inventarioalimentos.domain.entities.Alimento;
 import inventarioalimentos.persistencia.IOperacionDBAlimentos;
-import inventarioalimentos.persistencia.RepositorioAlimentos;
+
 
 public class RegistrarAlimentos implements RegistroAlimentos {
 

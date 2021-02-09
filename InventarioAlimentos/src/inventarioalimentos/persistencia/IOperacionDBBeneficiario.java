@@ -1,15 +1,13 @@
 package inventarioalimentos.persistencia;
 
-
+import java.util.List;
 
 public interface IOperacionDBBeneficiario {
 
-    void insertar();
+    public int insertar(Beneficiario BeneficiarioInsercion);
 
+    public List<Beneficiario> getAllBeneficiarios();
 
-    void getAll();
-
-  
-    void validarExistencia();
+    public boolean validarExistencia(String cedula);
 
 }

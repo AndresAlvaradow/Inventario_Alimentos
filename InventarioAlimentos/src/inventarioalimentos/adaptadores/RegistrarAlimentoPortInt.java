@@ -8,16 +8,16 @@ import inventarioalimentos.persistencia.IOperacionDBAlimentos;
 
 public class RegistrarAlimentoPortInt {
    
-  private RegistroAlimentos registroAimento;
+  private RegistroAlimentos registroAlimento;
   private IOperacionDBAlimentos ioperacionAlimento;
 
     public RegistrarAlimentoPortInt(RegistroAlimentos registroAimento, IOperacionDBAlimentos ioperacionAlimento) {
-        this.registroAimento = registroAimento;
+        this.registroAlimento = registroAimento;
         this.ioperacionAlimento = ioperacionAlimento;
     }
   
     public int registrarAlimentos(Alimento alimento){
-        return this.registroAimento.registrarAlimentos(alimento);
+        return this.registroAlimento.registrarAlimentos(alimento);
     }
 
 }

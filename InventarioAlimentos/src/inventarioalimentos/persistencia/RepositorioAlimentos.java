@@ -12,7 +12,7 @@ import javax.persistence.TypedQuery;
 
 public class RepositorioAlimentos implements IOperacionDBAlimentos {
   
-    public Alimento alimentos;
+
 
  
 
